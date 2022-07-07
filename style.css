@@ -15,6 +15,7 @@
     --color-white: #ffffff;
     --color-light-white: #eeeeee;
     --color-dark-white: #bdbdbd;
+    --color-teal:#00C9A8;
 
     /*fontsize*/
     --font-large:48px;
@@ -49,6 +50,16 @@ a{
 ul{
     list-style:none;
     padding-left:0;
+}
+li{
+    list-style:none;
+}
+
+button{
+    background-color:transparent;
+    cursor:pointer;
+    border:none;
+    outline:none
 }
 
 /*typography*/
@@ -107,4 +118,32 @@ p{
 
 .navbar_menu_item:hover{
     background-color:var(--color-dark-pink);
+}
+
+/*home*/
+#home{
+    background:url("img/background2.png") center/cover no-repeat;
+    padding:40px;
+    text-align: center;
+}
+
+.home_avatar {
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
+    border:2px solid var(--color-teal);
+}
+
+.home_titke,
+.home_description {
+    color: var(--color-white);
+}
+
+.home_contact{
+    font-size:var(--font-regular);
+    font-weight:var(--weight-bold);
+    margin:24px;
+    padding: 8px 12px;
+    border: 2px solid var(--color-light-blue);
+    border-radius: 25%;
 }
