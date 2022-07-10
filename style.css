@@ -435,4 +435,21 @@ p{
         display:none;
     }
 
+    .about_majors{
+        flex-direction: column;
+    }
+
+    .major{
+        margin-bottom: 38px;
+    }
+
+    .skillset{
+        flex-direction:column;
+    }
+
+    .project{
+        flex-grow: 1;
+    /*  화면이 줄어들면, 각각 디브가 알아서 화면의 사이즈에 맞게 바뀌어, 화면을 메꾸어 줌.   */
+    }
+
 }
