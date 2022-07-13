@@ -55,7 +55,11 @@ contactMe.addEventListener("click",(event)=>{
 const home = document.querySelector("#home");
 const homeHeight = home.getBoundingClientRect().height;
 document.addEventListener("scroll",()=>{
-    console.log(homeHeight);
+    //console.log(homeHeight);
+ //   homeHeight: 684.5
+    console.log(1 - window.scrollY/homeHeight)
+home.style.opacity=1 - window.scrollY/homeHeight;
+
 })
 
 
