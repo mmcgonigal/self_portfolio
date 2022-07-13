@@ -52,7 +52,7 @@ contactMe.addEventListener("click",(event)=>{
 
 
 //make home slowly faded when scrolling down.
-const home = document.querySelector("#home");
+const home = document.querySelector(".home_container");
 const homeHeight = home.getBoundingClientRect().height;
 document.addEventListener("scroll",()=>{
     //console.log(homeHeight);
